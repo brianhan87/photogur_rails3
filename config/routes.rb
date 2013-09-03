@@ -12,7 +12,11 @@ Photogur::Application.routes.draw do
 
   # Sample resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
-  resources :pictures
+  get '/pictures'  => 'pictures#index'
+ 
+  get 'pictures/0' => 'pictures#picture0'
+  get 'pictures/1' => 'pictures#picture1'
+  get 'pictures/2' => 'pictures#picture2'
 
   # Sample resource route with options:
   #   resources :products do
