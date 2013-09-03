@@ -21,12 +21,12 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'carrierwave'
 
 group :development do
   gem "better_errors"
   gem 'rspec-rails', '~> 2.0'
 end
-
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
