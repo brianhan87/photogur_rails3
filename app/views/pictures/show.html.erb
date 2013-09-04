@@ -1,4 +1,4 @@
-<p>
-	<%= @picture[:title]%> by <%= @picture[:artist] %>
-	<img src="<%= @picture[:url] %>">
-</p>
+<%= link_to "Back to Pictures", pictures_url %>
+
+<p><%= @picture[:title] %>, <%= @picture[:artist] %></p>
+<%= image_tag @picture.url %>
