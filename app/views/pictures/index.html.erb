@@ -1,8 +1,11 @@
-<h1>Pictures (<%= @pictures.length %>)</h1>
+<h1>PHOTOGUR (<%= @pictures.length %>)</h1>
 <%= link_to "New Pictures", "/pictures/new" %>
 
 <% @pictures.each do |picture| %>
-	<p><%= picture[:title] %>, <%= picture[:artist] %></p>
-	<%= link_to image_tag(picture.url), 
-	"/pictures/#{picture.id}" %>
+	<div class="container">
+		<p><%= picture[:title] %>,</p> 
+		<p><%= picture[:artist] %></p>
+		<%= link_to image_tag(picture.url), 
+		"/pictures/#{picture.id}" %>
+	</div>
 <% end %>

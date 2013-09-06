@@ -2,6 +2,44 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-img {
-	width: 500px;	
+body {
+	padding: 50px;
+	margin: 30px;
+	background-color: lightgrey;
+	font-family: "HelveticaNeue-Bold";
 }
+
+h1 {
+	text-shadow: 0px 2px 2px white;
+}
+
+.container {
+	background-color: lightsalmon;
+	margin: 10px;
+	width: 250px;
+	float: left;
+	padding: 10px;
+	min-height: 250px;
+}
+
+
+p {
+	font-size: 22px;
+	display: none;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	font-size: 1.5em;
+	float: right;
+	background-color: green;
+
+} 
+
+
+img {
+	width: 250px;	
+}
+
+

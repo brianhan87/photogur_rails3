@@ -14,13 +14,6 @@ Photogur::Application.routes.draw do
   #   resources :products
   root :to => "pictures#index"
   resources :pictures
-  
-
-
-  
-  
-
-  
 
   # Sample resource route with options:
   #   resources :products do
