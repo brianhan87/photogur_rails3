@@ -78,4 +78,7 @@ Picture.create!(
     :url    => "http://placehold.it/250x250"  
   )
 
+Comment.create!(
+    :text => "This site sucks! Learn some Rails!"
+  )
 
